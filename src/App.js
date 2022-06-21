@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import './styles/reset.css'
 import './App.css';
+// import Button from './components/Button';
+// import Form from './components/Form';
+// import CounterParent from './components/CounterParent';
+// import TodoApp from './components/TodoApp';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+
+  return(
+    <div className='App'>
+     <Header/>
+ 
+     <div className='MainContent'>
+      
+     </div>
+     <Footer />
+    </div>
+  )
+ }
+ 
+ export default App;
+
+
+
+
